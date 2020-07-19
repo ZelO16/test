@@ -1,11 +1,12 @@
 *{
     padding:0;
     margin:0;
-    font-family:微軟正黑體;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
 }
 body{
     text-transform:uppercase;
-    font-family:orbitron, arial;
+    font-family: orbitron, arial;
     font-weight:900;
     background:white;
     color:black;
@@ -16,9 +17,7 @@ header{
     justify-content:space-between;
     padding:10px;
     border-bottom:2px solid black;
-}
-h1{
-    font-size:3.2em;
+    place-items: center;
 }
 #menu-button{
     width:40px;
@@ -28,7 +27,7 @@ h1{
     justify-content:space-between;
     position:fixed;
     z-index:7;
-    right:10px;
+    right:30px;
     cursor:pointer;
 }
 div{
