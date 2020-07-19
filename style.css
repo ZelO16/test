@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 微軟正黑體;
+}
+
+body {
+  text-transform: uppercase;
+  font-family: orbitron, arial;
+  font-weight: 900;
+  background: white;
+  color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+#menu-button {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  z-index: 7;
+  right: 10px;
+  cursor: pointer;
+}
+
+div {
+  width: 100%;
+  height: 20%;
+  background: black;
+  border: 1px solid black;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+nav {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 5;
+  display: none;
+  place-items: center;
+  text-align: center;
+  background: #A0CCF2;
+  top: 0;
+}
+
+li {
+  font-size: 3em;
+  list-style: none;
+  cursor: pointer;
+}
+
+#menu-button:hover > * {
+  background: #F2DEA0 !important;
+  border-color: #F2DEA0;
+}
+
+#menu-button:active > * {
+  background: #F2A0AF !important;
+  border-color: #F2A0AF;
+}
+
+li:hover {
+  color: #F2A0AF;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+/*# sourceMappingURL=style.css.map */
