@@ -1,4 +1,4 @@
-var menu = new TimelineMax({paused:true, reversed:true})
+var menu = new TimelineMax({paused:true, reversed:true});
 menu.to('div:nth-child(2)',.25,{
   opacity:0,
   ease:Power2.easeInOut
